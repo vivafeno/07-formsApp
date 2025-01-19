@@ -1,13 +1,9 @@
 import { Component } from '@angular/core';
 
-
 interface menuItem {
   title: string;
   route: string;
 }
-
-
-
 
 @Component({
   selector: 'shared-side-menu',
